@@ -1,6 +1,6 @@
 
-export const DOMAIN = 'http://localhost:3000';
-// export const DOMAIN = 'https://www.onepunchmanmanga.in.net';
+// export const DOMAIN = 'http://localhost:3000';
+export const DOMAIN = 'https://www.onepunchmanmanga.in.net';
 
 
 export const MANGA_DESCRIPTION = `<a href="${DOMAIN}"><u>One Punch Man</u></a> follows Saitama, an ordinary-looking guy with the extraordinary ability to defeat any opponent with a single punch. Despite his unmatched power, Saitama is bored and longs for a real challenge. The anime blends action and humor as Saitama faces various monsters and villains, befriends other heroes, and navigates everyday life, all while satirizing typical superhero tropes.`
