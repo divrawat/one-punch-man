@@ -30,7 +30,7 @@ export const logo = <img src={`${LOGO_URL}`} alt="Logo" className="h-[85px] w-[8
 export const APP_NAME = 'One Punch Man';
 export const NavbarName = "One Punch Man";
 
-export const APP_DESCRIPTION = `Read "${MANGA_NAME}" manga online at "${DOMAIN}". Enjoy high-quality scans, latest chapters, and connect with fans in our vibrant community.`;
+export const APP_DESCRIPTION = `Read "${MANGA_NAME}" manga online at ${DOMAIN}. Enjoy high-quality scans, latest chapters, and connect with fans in our vibrant community.`;
 
 export const DISQUS_SHORTNAME = "my-cms-7";
 
