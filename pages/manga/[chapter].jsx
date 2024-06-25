@@ -26,11 +26,11 @@ export default function Chapter({ chapterNumber, imageUrls, totalChapters, param
     const nextChapter = chapterIndex < totalChapters - 1 ? chaptersData[chapterIndex + 1].chapterNumber : null;
 
 
-    const DESCRIPTION = `Enjoy reading ${MANGA_NAME} chapter ${chapterNumber} online at ${DOMAIN}.`
+    const DESCRIPTION = `Enjoy reading ${MANGA_NAME} chapter ${chapterNumber} online at ${DOMAIN}. The story revolves around Saitama, a hero who can defeat any opponent with a single punch. Despite his overwhelming power, he struggles with boredom and seeks a worthy challenge.`
     const URL = params.chapter;
-    const currentDate = new Date();
-    const dateModified = new Date(currentDate.getTime() - (2 * 24 * 60 * 60 * 1000)).toISOString();
-    const datePublished = new Date(currentDate.getTime() - (7 * 24 * 60 * 60 * 1000)).toISOString();
+    // const currentDate = new Date();
+    // const dateModified = new Date(currentDate.getTime() - (2 * 24 * 60 * 60 * 1000)).toISOString();
+    // const datePublished = new Date(currentDate.getTime() - (7 * 24 * 60 * 60 * 1000)).toISOString();
 
 
     const schema =
@@ -57,8 +57,8 @@ export default function Chapter({ chapterNumber, imageUrls, totalChapters, param
                 "url": `${LOGO_URL}`
             }
         },
-        "datePublished": datePublished,
-        "dateModified": dateModified
+        // "datePublished": datePublished,
+        // "dateModified": dateModified
     }
 
     const head = () => (
